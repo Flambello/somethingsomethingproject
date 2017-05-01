@@ -1,9 +1,9 @@
 // all global declarations and libraries
 
 
-  #include <SD.h>
-  #include <SPI.h>
-  #include <LedControl.h>
+  #include <SD.h>           // SD card library
+  #include <SPI.h>          // SD card reading and writing 
+  #include <LedControl.h>   // LED matrice contrrol library
  
 
 //defining pins
@@ -15,7 +15,7 @@
   #define n3  19 
   
 //multiple declarations
-  int DIN = 4;
+  int DIN = 4;       
   int CS =  3;
   int CLK = 2;
   int CS_PIN = 10;
